@@ -1,0 +1,8 @@
+PROGRAM:ANDRAGRA
+:ClrHome
+:Output(6,1,"AX² + BX + C = 0")
+:Prompt A,B,C
+:(-B+sqrt(B²-4AC))/(2A)
+:Ans->D
+:Disp D
+:Disp D>Frac
